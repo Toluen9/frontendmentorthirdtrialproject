@@ -1,0 +1,234 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+
+body{
+    max-width: 970px;
+    margin: 40px auto;
+    height: 500px;
+    font-family: 'Inter', sans-serif;
+    
+}
+.container{
+    max-width: 970px;
+    /* margin: 60px auto;
+    height: 100px; */ 
+    display: grid;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    gap: 31px;
+    list-style: none;
+    align-self: center;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+}
+
+svg{
+    display: none;
+}
+.web-area{
+    width: 700px;
+}
+
+.webdesk-img{
+    width: 620px;
+}
+.mobile-img{
+    display: none;
+}
+
+.hero{
+    margin-top: 15px;
+    display: flex;
+}
+
+.future{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+
+h1{
+    width: 200px;
+    line-height: 40px;
+}
+
+.dive{
+    width: 400px;
+    font-size: small;
+    line-height: 25px;
+    color:  hsl(236, 13%, 42%);
+}
+
+button{
+    padding: 10px;
+    margin-top: 20px;
+    width: 170px;
+    font-weight: bold;
+    color: hsl(240, 100%, 5%);
+    background-color: hsl(5, 85%, 63%);
+    border: 2px solid hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.new-area{
+    padding: 20px;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(233, 8%, 79%);
+    
+}
+
+h3{
+    color: hsl(35, 77%, 62%);
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.hydrogen-area{
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid white;
+}
+
+.hero-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.hero1-imgs{
+    width: 80px;
+    margin-top: 10px;
+}
+.gaming-area{
+    display: flex;
+    gap: 10px;
+
+}
+
+h2{
+    color: hsl(5, 85%, 63%);
+    font-weight: bolder;
+}
+
+h5{
+    font-weight: lighter;
+    font-size: small;
+    line-height: 25px;
+    color:  hsl(236, 13%, 42%);
+}
+
+
+@media(max-width:375px){
+    body{
+        max-width: 375px;
+        align-content: center;
+        padding: 20px;
+    }
+
+    .container{
+        max-width: 350px;
+    }
+
+    .navbar{
+        display: grid;
+        position: relative;
+    }
+
+    nav{
+        display: none;
+    }
+
+    svg{
+        display: flex;
+        position: absolute;
+        top: -5px;
+        right: 5px;
+        height: 50px;
+        width: 50px;
+        
+    }
+
+    .web-area{
+        width: 350px;
+    }
+
+    .mobile-img{
+        display: block;
+        width: 370px;
+    }
+
+    .webdesk-img{
+        display: none;
+    }
+    .hero{
+        margin-top: 15px;
+        display: grid;
+    }
+
+    .future{
+        margin-top: 20px;
+        display: block;
+        width: 350px;
+    }
+
+    .new-area{
+        margin-top: 20px;
+        padding: 20px;
+        background-color: hsl(240, 100%, 5%);
+        color: hsl(233, 8%, 79%);
+        width: 370px;
+        
+    }
+
+    .evo{
+        width: 300px;
+        font-weight:normal;
+        font-size: medium;
+    }
+
+    .hero-1{
+        display: grid;
+        justify-content: space-between;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    button{
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    h4{
+        font-weight: 900;
+        font-size: medium;
+    }
+
+    h5{
+        font-weight:normal;
+        font-size: medium;
+    }
+
+
+}
