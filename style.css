@@ -201,6 +201,10 @@ h5{
         
     }
 
+    h2{
+        margin-top: 5px;
+    }
+
     .evo{
         width: 300px;
         font-weight:normal;
